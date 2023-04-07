@@ -5,7 +5,6 @@ cap = cv2.VideoCapture(0)
 x = 0
 w = 0
 
-# face et eye cascade avec le bon chemin en xml
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
